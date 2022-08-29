@@ -6,20 +6,10 @@ package Registro_Pacientes_Doctores;
 
 public class Medico extends Persona{
     
-    static int contadorMedicos = 0;
     private String especialidad;
 
-    
-    public static int getContadorMedicos() {
-        return contadorMedicos;
-    }
-
-    public static void setContadorMedicos(int contadorMedicos) {
-        Medico.contadorMedicos = contadorMedicos;
-    }
-
-    public Medico(String nombre, String cedula, String eps, String especialidad) {
-        super(nombre, cedula, eps);
+    public Medico(String nombre, String cedula, String ciudad, String eps, String especialidad) {
+        super(nombre, cedula, ciudad, eps);
         this.especialidad = especialidad;
     }
 
@@ -30,6 +20,8 @@ public class Medico extends Persona{
     public void setEspecialidad(String especialidad) {
         this.especialidad = especialidad;
     }
+    
+    
     
     @Override
     public String mostrar(){

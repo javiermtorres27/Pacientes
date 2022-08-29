@@ -16,6 +16,7 @@ public class Persona {
     public Persona(String nombre, String cedula, String ciudad, String eps) {
         this.nombre = nombre;
         this.cedula = cedula;
+        this.ciudad = ciudad;
         this.eps = eps;
     }
 
@@ -58,9 +59,6 @@ public class Persona {
     public void setEps(String eps) {
         this.eps = eps;
     }
-    
-    
-
     
     @Override
     public String toString(){
