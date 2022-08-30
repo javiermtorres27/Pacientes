@@ -82,28 +82,28 @@
                                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
                                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                                  <Component id="listaCiudadEditarPaciente" alignment="1" max="32767" attributes="0"/>
+                                                  <Component id="listaCiudadPacienteModificar" alignment="1" max="32767" attributes="0"/>
                                                   <Component id="lblCiudadPaciente1" alignment="1" min="-2" pref="158" max="-2" attributes="0"/>
                                               </Group>
                                               <EmptySpace type="separate" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                  <Component id="listaEpsEditarPaciente" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="listaEpsPacienteModificar" alignment="0" max="32767" attributes="0"/>
                                                   <Component id="lblEpsPaciente1" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
                                               </Group>
                                               <EmptySpace max="32767" attributes="0"/>
-                                              <Component id="btnEditarPaciente" min="-2" pref="151" max="-2" attributes="0"/>
+                                              <Component id="btnModificarPaciente" min="-2" pref="151" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
                                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                  <Component id="txtNombreEditarPaciente" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="txtNombrePacienteModificar" alignment="0" max="32767" attributes="0"/>
                                                   <Component id="lblNombrePaciente1" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
                                               </Group>
                                               <EmptySpace type="separate" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="102" alignment="0" attributes="0">
-                                                      <Component id="txtCedulaEditarPaciente" min="-2" pref="158" max="-2" attributes="0"/>
+                                                      <Component id="txtCedulaPacienteModificar" min="-2" pref="158" max="-2" attributes="0"/>
                                                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                      <Component id="txtEdadEditarPaciente" min="-2" pref="158" max="-2" attributes="0"/>
+                                                      <Component id="txtEdadPacienteModificar" min="-2" pref="158" max="-2" attributes="0"/>
                                                   </Group>
                                                   <Group type="102" alignment="0" attributes="0">
                                                       <Component id="lblCedulaPaciente1" min="-2" pref="158" max="-2" attributes="0"/>
@@ -207,9 +207,9 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="txtNombreEditarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtCedulaEditarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtEdadEditarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtNombrePacienteModificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCedulaPacienteModificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtEdadPacienteModificar" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -220,13 +220,13 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="listaCiudadEditarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="listaEpsEditarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="listaCiudadPacienteModificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="listaEpsPacienteModificar" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                              <Component id="btnEditarPaciente" min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="btnModificarPaciente" min="-2" pref="41" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -312,9 +312,9 @@
                 <Property name="text" type="java.lang.String" value="Nombre"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtNombreEditarPaciente">
+            <Component class="javax.swing.JTextField" name="txtNombrePacienteModificar">
             </Component>
-            <Component class="javax.swing.JButton" name="btnEditarPaciente">
+            <Component class="javax.swing.JButton" name="btnModificarPaciente">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="12" style="1"/>
@@ -322,7 +322,7 @@
                 <Property name="text" type="java.lang.String" value="Editar Paciente"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditarPacienteActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnModificarPacienteActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="lblIngresar4">
@@ -333,7 +333,7 @@
                 <Property name="text" type="java.lang.String" value="Editar datos de paciente"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JComboBox" name="listaEpsEditarPaciente">
+            <Component class="javax.swing.JComboBox" name="listaEpsPacienteModificar">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="0"/>
@@ -343,7 +343,7 @@
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JComboBox" name="listaCiudadEditarPaciente">
+            <Component class="javax.swing.JComboBox" name="listaCiudadPacienteModificar">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="0"/>
@@ -358,14 +358,14 @@
                 <Property name="text" type="java.lang.String" value="C&#xe9;dula"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtCedulaEditarPaciente">
+            <Component class="javax.swing.JTextField" name="txtCedulaPacienteModificar">
             </Component>
             <Component class="javax.swing.JLabel" name="lblEdadPaciente1">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Edad"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtEdadEditarPaciente">
+            <Component class="javax.swing.JTextField" name="txtEdadPacienteModificar">
             </Component>
             <Component class="javax.swing.JLabel" name="lblCiudadPaciente1">
               <Properties>
@@ -531,173 +531,6 @@
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonObtenerActionPerformed"/>
-              </Events>
-            </Component>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JPanel" name="jPanel3">
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Editar / Eliminar">
-                <Property name="tabTitle" type="java.lang.String" value="Editar / Eliminar"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="lblCedulaBuscarPaciente" min="-2" pref="104" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="txtCedulaBuscahhhrPaciente" min="-2" pref="158" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="botonBuscarPacientejj" min="-2" pref="112" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="botonEditarPacientejkjj" min="-2" pref="112" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                              <Component id="botonEliminarPacjjjiente" min="-2" pref="112" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                              <Component id="botonLimpiarjjjEditarPaciente" min="-2" pref="112" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="lblNombreEditarPaciente" min="-2" pref="158" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="lblCedulaEditarPaciente" min="-2" pref="158" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="lblEdadEditarPaciente" min="-2" pref="158" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="lblBusqueda" alignment="0" min="-2" pref="229" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="lblCiudadEditarPaciente" min="-2" pref="158" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="lblEpsEditarPaciente" min="-2" pref="158" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace pref="134" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblCedulaBuscarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtCedulaBuscahhhrPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="botonBuscarPacientejj" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="lblBusqueda" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblNombreEditarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblCedulaEditarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblEdadEditarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblCiudadEditarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblEpsEditarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace pref="206" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="botonEditarPacientejkjj" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="botonEliminarPacjjjiente" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="botonLimpiarjjjEditarPaciente" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="lblNombreEditarPaciente">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Nombre"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="lblCedulaEditarPaciente">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="C&#xe9;dula"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="lblEdadEditarPaciente">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Edad"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="lblEpsEditarPaciente">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="EPS"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="lblCiudadEditarPaciente">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Ciudad"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JButton" name="botonEditarPacientejkjj">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="12" style="1"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Editar"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonEditarPacientejkjjActionPerformed"/>
-              </Events>
-            </Component>
-            <Component class="javax.swing.JButton" name="botonEliminarPacjjjiente">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="12" style="1"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Eliminar"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonEliminarPacjjjienteActionPerformed"/>
-              </Events>
-            </Component>
-            <Component class="javax.swing.JLabel" name="lblBusqueda">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="14" style="1"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Resultados de la b&#xfa;squeda"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="lblCedulaBuscarPaciente">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="C&#xe9;dula Paciente"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JTextField" name="txtCedulaBuscahhhrPaciente">
-            </Component>
-            <Component class="javax.swing.JButton" name="botonBuscarPacientejj">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="12" style="1"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Buscar"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonBuscarPacientejjActionPerformed"/>
-              </Events>
-            </Component>
-            <Component class="javax.swing.JButton" name="botonLimpiarjjjEditarPaciente">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="12" style="1"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Limpiar"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonLimpiarjjjEditarPacienteActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
@@ -944,11 +777,11 @@
                                   <Group type="102" alignment="1" attributes="0">
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                           <Component id="lblNombreMedico1" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txtNombreEditarMedico" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                                          <Component id="txtNombreMedicoModificar" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="txtCedulaEditarMedico" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtCedulaMedicoModificar" alignment="0" max="32767" attributes="0"/>
                                           <Group type="102" alignment="0" attributes="0">
                                               <Component id="lblCedulaMedico1" min="-2" pref="64" max="-2" attributes="0"/>
                                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -958,20 +791,18 @@
                                   <Group type="102" alignment="1" attributes="0">
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                           <Component id="lblEpsMedico1" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="listaEpsEditarMedico" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                                          <Component id="listaEpsMedicoModificar" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="listaEspecialidadEditarMedico" alignment="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="listaEspecialidadMedicoModificar" alignment="0" pref="0" max="32767" attributes="0"/>
                                           <Component id="lblEspecialidadMedico1" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="lblCiudadMedico1" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="1" attributes="0">
                                           <Component id="lblCiudadMedico" min="-2" pref="158" max="-2" attributes="0"/>
                                           <Component id="listaCiudadMedico" min="-2" pref="158" max="-2" attributes="0"/>
@@ -980,7 +811,13 @@
                                           <Component id="btnEliminarMedico" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
-                                  <Component id="listaCiudadEditarMedico" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lblCiudadMedico1" min="-2" pref="158" max="-2" attributes="0"/>
+                                          <Component id="listaCiudadMedicoModificar" min="-2" pref="158" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                               <EmptySpace min="-2" pref="333" max="-2" attributes="0"/>
                           </Group>
@@ -1090,14 +927,14 @@
                                   <Component id="lblCedulaMedico1" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="txtNombreEditarMedico" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtNombreMedicoModificar" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Component id="lblCiudadMedico1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="txtCedulaEditarMedico" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="listaCiudadEditarMedico" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtCedulaMedicoModificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="listaCiudadMedicoModificar" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -1110,8 +947,8 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="btnEditarMedico" min="-2" pref="40" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="listaEspecialidadEditarMedico" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="listaEpsEditarMedico" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="listaEspecialidadMedicoModificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="listaEpsMedicoModificar" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -1175,7 +1012,6 @@
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="0"/>
                 </Property>
-                <Property name="selectedIndex" type="int" value="-1"/>
               </Properties>
               <AuxValues>
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -1186,7 +1022,6 @@
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="0"/>
                 </Property>
-                <Property name="selectedIndex" type="int" value="-1"/>
               </Properties>
               <AuxValues>
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -1197,7 +1032,6 @@
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="0"/>
                 </Property>
-                <Property name="selectedIndex" type="int" value="-1"/>
               </Properties>
               <AuxValues>
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -1232,7 +1066,7 @@
                 <Property name="text" type="java.lang.String" value="Especialidad"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JComboBox" name="listaEspecialidadEditarMedico">
+            <Component class="javax.swing.JComboBox" name="listaEspecialidadMedicoModificar">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="0"/>
@@ -1242,7 +1076,7 @@
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JComboBox" name="listaEpsEditarMedico">
+            <Component class="javax.swing.JComboBox" name="listaEpsMedicoModificar">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="0"/>
@@ -1252,7 +1086,7 @@
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JComboBox" name="listaCiudadEditarMedico">
+            <Component class="javax.swing.JComboBox" name="listaCiudadMedicoModificar">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="0"/>
@@ -1272,14 +1106,14 @@
                 <Property name="text" type="java.lang.String" value="Nombre"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtNombreEditarMedico">
+            <Component class="javax.swing.JTextField" name="txtNombreMedicoModificar">
             </Component>
             <Component class="javax.swing.JLabel" name="lblCedulaMedico1">
               <Properties>
                 <Property name="text" type="java.lang.String" value="C&#xe9;dula"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtCedulaEditarMedico">
+            <Component class="javax.swing.JTextField" name="txtCedulaMedicoModificar">
               <Properties>
                 <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[158, 2147483647]"/>
@@ -1325,7 +1159,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="12" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Buscar"/>
+                <Property name="text" type="java.lang.String" value="Limpiar"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimpiarMedicoActionPerformed"/>
@@ -1354,24 +1188,11 @@
                                       <Component id="lblCiudadIngresar1" min="-2" pref="158" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="lblEpsIngresar1" min="-2" pref="158" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
-                                  <Group type="102" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="txtCiudadModificar" max="32767" attributes="0"/>
-                                          <Component id="btnEliminarCiudad" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="btnEditarCiudad" alignment="1" max="32767" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="txtEpsModificar" min="-2" pref="158" max="-2" attributes="0"/>
-                                          <Component id="btnEditarEps" min="-2" pref="158" max="-2" attributes="0"/>
-                                          <Component id="btnEliminarEps" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
-                                  </Group>
+                                  <Component id="txtCiudadModificar" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                                  <Component id="btnEditarCiudad" min="-2" pref="158" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace min="-2" pref="464" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
@@ -1406,9 +1227,16 @@
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="listaCiudadModificar" min="-2" pref="158" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="listaEpsModificar" min="-2" pref="158" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="listaCiudadModificar" min="-2" pref="158" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="listaEpsModificar" min="-2" pref="158" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="txtEpsModificar" min="-2" pref="158" max="-2" attributes="0"/>
+                                          <Component id="btnEditarEps" min="-2" pref="158" max="-2" attributes="0"/>
+                                          <Component id="btnEliminarEps" min="-2" pref="158" max="-2" attributes="0"/>
+                                      </Group>
                                       <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="btnEditarEspecialidad" min="-2" pref="158" max="-2" attributes="0"/>
@@ -1420,6 +1248,7 @@
                                           <Component id="lblEs1" alignment="1" min="-2" pref="158" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
+                                  <Component id="btnEliminarCiudad" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
@@ -1453,7 +1282,7 @@
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="32" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1535,21 +1364,21 @@
                                   <Component id="lblEs4" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="listaEnfermedadEspecialidadModificar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="listaEnfermedadModificar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="listaEnfermedadEspecialidadModificar" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="btnEditarEnfermedad" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="btnBuscarEnfermedad" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnEditarEnfermedad" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="btnLimpiarEnfermedad" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnEditarEnfermedad1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnEditarEnfermedad1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="21" max="32767" attributes="0"/>
                   </Group>
