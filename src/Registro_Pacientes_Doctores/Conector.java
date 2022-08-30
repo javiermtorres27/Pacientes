@@ -18,7 +18,7 @@ import java.sql.ResultSet;
  * @author Blanca
  */
 public class Conector {
-
+    //public static String dato;
     /**
      * crea una conexion a una base de datos especifica
      *
@@ -49,14 +49,28 @@ public class Conector {
      */
     public ResultSet ejecutarQuery(Connection conexion, String query) {
         ResultSet resultados=null;
+        Statement sentencia = null;
         try {
-            Statement sentencia = conexion.createStatement();
+            sentencia = conexion.createStatement();
             //Hacer una consulta y obtener la tabla con los resultados
             //Statement.executeQuery(String query)
             resultados = sentencia.executeQuery(query);
         } catch (SQLException ex) {
             resultados = null;
-        }
+        }/*finally { // Close in order: ResultSet, Statement, Connection.
+            try {
+                resultados.close();
+            } catch (Exception e) {
+            }
+            try {
+                sentencia.close();
+            } catch (Exception e) {
+            }
+            try {
+                conexion.close();
+            } catch (Exception e) {
+            }
+        }*/
 
         return resultados;
     }
@@ -71,13 +85,89 @@ public class Conector {
      */
     public int ejecutarActualizacion(Connection conexion, String query) {
         int filasAfectadas;
+        Statement sentencia = null;
         try {
-            Statement sentencia = conexion.createStatement();
+            sentencia = conexion.createStatement();
             //Hacer una consulta y devolver la cantidad de filas afectadas por la consulta
             //Statement.executeUpdate(String query);
             filasAfectadas = sentencia.executeUpdate(query);
+            //filasAfectadas2=filasAfectadas;
         } catch (SQLException e) {
+            System.out.println(e.getMessage());
             filasAfectadas = -1;
+        }finally { // Close in order: ResultSet, Statement, Connection.
+            /*try {
+                resultados.close();
+            } catch (Exception e) {
+            }*/
+            try {
+                sentencia.close();
+            } catch (Exception e) {
+            }
+            try {
+                conexion.close();
+            } catch (Exception e) {
+            }
+        }
+        return filasAfectadas;
+    }
+    
+    
+    
+    public ResultSet ejecutarQuery2(Connection conexion, String query) {
+        ResultSet resultados=null;
+        Statement sentencia = null;
+        try {
+            sentencia = conexion.createStatement();
+            //Hacer una consulta y obtener la tabla con los resultados
+            //Statement.executeQuery(String query)
+            resultados = sentencia.executeQuery(query);
+            //dato = resultados.getString("Id");
+        } catch (SQLException ex) {
+            resultados = null;
+        }/*finally { // Close in order: ResultSet, Statement, Connection.
+            try {
+                resultados.close();
+            } catch (SQLException e) {
+            }
+            try {
+                sentencia.close();
+            } catch (SQLException e) {
+            }
+            try {
+                conexion.close();
+            } catch (SQLException e) {
+            }
+        }*/
+
+        return null;
+    }
+    
+    public int ejecutarActualizacion2(Connection conexion, String query) {
+        int filasAfectadas;
+        Statement sentencia = null;
+        try {
+            sentencia = conexion.createStatement();
+            //Hacer una consulta y devolver la cantidad de filas afectadas por la consulta
+            //Statement.executeUpdate(String query);
+            filasAfectadas = sentencia.executeUpdate(query);
+            //filasAfectadas2=filasAfectadas;
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+            filasAfectadas = -1;
+        }finally { // Close in order: ResultSet, Statement, Connection.
+            /*try {
+                resultados.close();
+            } catch (Exception e) {
+            }*/
+            try {
+                sentencia.close();
+            } catch (Exception e) {
+            }
+            try {
+                conexion.close();
+            } catch (Exception e) {
+            }
         }
         return filasAfectadas;
     }

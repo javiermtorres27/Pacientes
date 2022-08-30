@@ -89,10 +89,27 @@ public class Main extends javax.swing.JFrame {
         lblEpsPaciente = new javax.swing.JLabel();
         lblNombrePaciente = new javax.swing.JLabel();
         txtNombrePaciente = new javax.swing.JTextField();
-        botonIngresarPaciente = new javax.swing.JButton();
+        btnIngresarPaciente = new javax.swing.JButton();
         lblIngresar = new javax.swing.JLabel();
         listaEpsPaciente = new javax.swing.JComboBox<>();
         listaCiudadPaciente = new javax.swing.JComboBox<>();
+        lblNombrePaciente1 = new javax.swing.JLabel();
+        txtNombreEditarPaciente = new javax.swing.JTextField();
+        btnEditarPaciente = new javax.swing.JButton();
+        lblIngresar4 = new javax.swing.JLabel();
+        listaEpsEditarPaciente = new javax.swing.JComboBox<>();
+        listaCiudadEditarPaciente = new javax.swing.JComboBox<>();
+        lblCedulaPaciente1 = new javax.swing.JLabel();
+        txtCedulaEditarPaciente = new javax.swing.JTextField();
+        lblEdadPaciente1 = new javax.swing.JLabel();
+        txtEdadEditarPaciente = new javax.swing.JTextField();
+        lblCiudadPaciente1 = new javax.swing.JLabel();
+        lblEpsPaciente1 = new javax.swing.JLabel();
+        lblCedulaBuscarPaciente2 = new javax.swing.JLabel();
+        txtCedulaBuscarPaciente = new javax.swing.JTextField();
+        btnBuscarPaciente = new javax.swing.JButton();
+        btnEliminarPaciente = new javax.swing.JButton();
+        btnLimpiarPaciente = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         botonProcesar = new javax.swing.JButton();
         jScrollPane3 = new javax.swing.JScrollPane();
@@ -102,29 +119,23 @@ public class Main extends javax.swing.JFrame {
         botonObtener = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         lblNombreEditarPaciente = new javax.swing.JLabel();
-        txtNombreEditarPaciente = new javax.swing.JTextField();
-        txtCedulaEditarPaciente = new javax.swing.JTextField();
         lblCedulaEditarPaciente = new javax.swing.JLabel();
         lblEdadEditarPaciente = new javax.swing.JLabel();
-        txtEdadEditarPaciente = new javax.swing.JTextField();
         lblEpsEditarPaciente = new javax.swing.JLabel();
         lblCiudadEditarPaciente = new javax.swing.JLabel();
-        botonEditarPaciente = new javax.swing.JButton();
-        botonEliminarPaciente = new javax.swing.JButton();
+        botonEditarPacientejkjj = new javax.swing.JButton();
+        botonEliminarPacjjjiente = new javax.swing.JButton();
         lblBusqueda = new javax.swing.JLabel();
         lblCedulaBuscarPaciente = new javax.swing.JLabel();
-        txtCedulaBuscarPaciente = new javax.swing.JTextField();
-        botonBuscarPaciente = new javax.swing.JButton();
-        botonLimpiarEditarPaciente = new javax.swing.JButton();
-        listaCiudadEditarPaciente = new javax.swing.JComboBox<>();
-        listaEpsEditarPaciente = new javax.swing.JComboBox<>();
+        txtCedulaBuscahhhrPaciente = new javax.swing.JTextField();
+        botonBuscarPacientejj = new javax.swing.JButton();
+        botonLimpiarjjjEditarPaciente = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
         listaPacientesConMedico = new javax.swing.JList<>();
         botonPacientesSinAsignacion = new javax.swing.JButton();
         lblBuscarMedico = new javax.swing.JLabel();
         lblCedulaMedicoBuscar = new javax.swing.JLabel();
-        txtCedulaBuscarMedico = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
         jScrollPane7 = new javax.swing.JScrollPane();
         listaPacientesSinMedico = new javax.swing.JList<>();
@@ -143,12 +154,29 @@ public class Main extends javax.swing.JFrame {
         lblCedulaMedico = new javax.swing.JLabel();
         txtCedulaMedico = new javax.swing.JTextField();
         lblEpsMedico = new javax.swing.JLabel();
-        botonIngresarMedico = new javax.swing.JButton();
-        lblEspecialidad = new javax.swing.JLabel();
-        listaEspecialidad = new javax.swing.JComboBox<>();
+        btnIngresarMedico = new javax.swing.JButton();
+        lblEspecialidadMedico = new javax.swing.JLabel();
+        listaEspecialidadMedico = new javax.swing.JComboBox<>();
         listaEpsMedico = new javax.swing.JComboBox<>();
         listaCiudadMedico = new javax.swing.JComboBox<>();
         lblCiudadMedico = new javax.swing.JLabel();
+        lblIngresarMedico1 = new javax.swing.JLabel();
+        btnEditarMedico = new javax.swing.JButton();
+        lblEspecialidadMedico1 = new javax.swing.JLabel();
+        listaEspecialidadEditarMedico = new javax.swing.JComboBox<>();
+        listaEpsEditarMedico = new javax.swing.JComboBox<>();
+        listaCiudadEditarMedico = new javax.swing.JComboBox<>();
+        lblCiudadMedico1 = new javax.swing.JLabel();
+        lblNombreMedico1 = new javax.swing.JLabel();
+        txtNombreEditarMedico = new javax.swing.JTextField();
+        lblCedulaMedico1 = new javax.swing.JLabel();
+        txtCedulaEditarMedico = new javax.swing.JTextField();
+        lblEpsMedico1 = new javax.swing.JLabel();
+        lblCedulaBuscarPaciente1 = new javax.swing.JLabel();
+        txtCedulaBuscarMedico = new javax.swing.JTextField();
+        btnBuscarMedico = new javax.swing.JButton();
+        btnEliminarMedico = new javax.swing.JButton();
+        btnLimpiarMedico = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
         txtCiudadIngresar = new javax.swing.JTextField();
         lblCiudadIngresar = new javax.swing.JLabel();
@@ -188,7 +216,7 @@ public class Main extends javax.swing.JFrame {
         btnEliminarEps = new javax.swing.JButton();
         btnEliminarEspecialidad = new javax.swing.JButton();
         btnBuscarEnfermedad = new javax.swing.JButton();
-        btnBuscarEnfermedad1 = new javax.swing.JButton();
+        btnLimpiarEnfermedad = new javax.swing.JButton();
         btnEditarEnfermedad1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -206,28 +234,122 @@ public class Main extends javax.swing.JFrame {
 
         lblNombrePaciente.setText("Nombre");
 
-        botonIngresarPaciente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        botonIngresarPaciente.setText("Ingresar Paciente");
-        botonIngresarPaciente.addActionListener(new java.awt.event.ActionListener() {
+        btnIngresarPaciente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnIngresarPaciente.setText("Ingresar Paciente");
+        btnIngresarPaciente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonIngresarPacienteActionPerformed(evt);
+                btnIngresarPacienteActionPerformed(evt);
             }
         });
 
         lblIngresar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         lblIngresar.setText("Ingresar datos de paciente");
 
+        lblNombrePaciente1.setText("Nombre");
+
+        btnEditarPaciente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnEditarPaciente.setText("Editar Paciente");
+        btnEditarPaciente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEditarPacienteActionPerformed(evt);
+            }
+        });
+
+        lblIngresar4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        lblIngresar4.setText("Editar datos de paciente");
+
+        lblCedulaPaciente1.setText("Cédula");
+
+        lblEdadPaciente1.setText("Edad");
+
+        lblCiudadPaciente1.setText("Ciudad");
+
+        lblEpsPaciente1.setText("EPS");
+
+        lblCedulaBuscarPaciente2.setText("Cédula Paciente");
+
+        btnBuscarPaciente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnBuscarPaciente.setText("Buscar");
+        btnBuscarPaciente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBuscarPacienteActionPerformed(evt);
+            }
+        });
+
+        btnEliminarPaciente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnEliminarPaciente.setText("Eliminar Paciente");
+        btnEliminarPaciente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEliminarPacienteActionPerformed(evt);
+            }
+        });
+
+        btnLimpiarPaciente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnLimpiarPaciente.setText("Limpiar");
+        btnLimpiarPaciente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLimpiarPacienteActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(28, 28, 28)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(28, 28, 28)
+                        .addComponent(lblCedulaBuscarPaciente2, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtCedulaBuscarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnBuscarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnLimpiarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(lblIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addComponent(lblIngresar4, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(btnEliminarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addComponent(listaCiudadEditarPaciente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(lblCiudadPaciente1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                            .addComponent(listaEpsEditarPaciente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(lblEpsPaciente1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(btnEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                            .addComponent(txtNombreEditarPaciente)
+                                            .addComponent(lblNombrePaciente1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                                .addComponent(txtCedulaEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(18, 18, 18)
+                                                .addComponent(txtEdadEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                                .addComponent(lblCedulaPaciente1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(18, 18, 18)
+                                                .addComponent(lblEdadPaciente1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(listaCiudadPaciente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(lblCiudadPaciente, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE))
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(listaEpsPaciente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(lblEpsPaciente, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnIngresarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(txtNombrePaciente)
                                     .addComponent(lblNombrePaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -240,19 +362,8 @@ public class Main extends javax.swing.JFrame {
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addComponent(lblCedulaPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(18, 18, 18)
-                                        .addComponent(lblEdadPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(listaCiudadPaciente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(lblCiudadPaciente, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE))
-                                .addGap(18, 18, 18)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(listaEpsPaciente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(lblEpsPaciente, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(179, 179, 179)
-                        .addComponent(botonIngresarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(135, Short.MAX_VALUE))
+                                        .addComponent(lblEdadPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                .addContainerGap(134, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -273,13 +384,49 @@ public class Main extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblCiudadPaciente)
                     .addComponent(lblEpsPaciente))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 148, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(listaCiudadPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(listaEpsPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addComponent(btnIngresarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(36, 36, 36)
+                .addComponent(lblIngresar4)
+                .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(listaEpsPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(listaCiudadPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addComponent(botonIngresarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(147, 147, 147))
+                    .addComponent(lblCedulaBuscarPaciente2)
+                    .addComponent(txtCedulaBuscarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBuscarPaciente)
+                    .addComponent(btnLimpiarPaciente))
+                .addGap(26, 26, 26)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblNombrePaciente1)
+                    .addComponent(lblCedulaPaciente1)
+                    .addComponent(lblEdadPaciente1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtNombreEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtCedulaEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtEdadEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblCiudadPaciente1)
+                    .addComponent(lblEpsPaciente1))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(listaCiudadEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(listaEpsEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addComponent(btnEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addComponent(btnEliminarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(27, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Ingresar Paciente", jPanel1);
@@ -312,26 +459,29 @@ public class Main extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(botonObtener, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
+                    .addComponent(botonObtener, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(35, 35, 35)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(botonProcesar, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(15, 15, 15))
+                .addContainerGap(63, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(12, 12, 12)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(botonProcesar)
-                    .addComponent(botonObtener))
-                .addGap(18, 18, 18)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(12, 12, 12)
+                        .addComponent(botonObtener))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(botonProcesar)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE)
                     .addComponent(jScrollPane3))
-                .addContainerGap(173, Short.MAX_VALUE))
+                .addContainerGap(191, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Procesar datos", jPanel2);
@@ -346,19 +496,19 @@ public class Main extends javax.swing.JFrame {
 
         lblCiudadEditarPaciente.setText("Ciudad");
 
-        botonEditarPaciente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        botonEditarPaciente.setText("Editar");
-        botonEditarPaciente.addActionListener(new java.awt.event.ActionListener() {
+        botonEditarPacientejkjj.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        botonEditarPacientejkjj.setText("Editar");
+        botonEditarPacientejkjj.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonEditarPacienteActionPerformed(evt);
+                botonEditarPacientejkjjActionPerformed(evt);
             }
         });
 
-        botonEliminarPaciente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        botonEliminarPaciente.setText("Eliminar");
-        botonEliminarPaciente.addActionListener(new java.awt.event.ActionListener() {
+        botonEliminarPacjjjiente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        botonEliminarPacjjjiente.setText("Eliminar");
+        botonEliminarPacjjjiente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonEliminarPacienteActionPerformed(evt);
+                botonEliminarPacjjjienteActionPerformed(evt);
             }
         });
 
@@ -367,27 +517,21 @@ public class Main extends javax.swing.JFrame {
 
         lblCedulaBuscarPaciente.setText("Cédula Paciente");
 
-        botonBuscarPaciente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        botonBuscarPaciente.setText("Buscar");
-        botonBuscarPaciente.addActionListener(new java.awt.event.ActionListener() {
+        botonBuscarPacientejj.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        botonBuscarPacientejj.setText("Buscar");
+        botonBuscarPacientejj.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonBuscarPacienteActionPerformed(evt);
+                botonBuscarPacientejjActionPerformed(evt);
             }
         });
 
-        botonLimpiarEditarPaciente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        botonLimpiarEditarPaciente.setText("Limpiar");
-        botonLimpiarEditarPaciente.addActionListener(new java.awt.event.ActionListener() {
+        botonLimpiarjjjEditarPaciente.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        botonLimpiarjjjEditarPaciente.setText("Limpiar");
+        botonLimpiarjjjEditarPaciente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonLimpiarEditarPacienteActionPerformed(evt);
+                botonLimpiarjjjEditarPacienteActionPerformed(evt);
             }
         });
-
-        listaCiudadEditarPaciente.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "cancer", "cardiovasculares", "respiratorias", "cerebrovasculares", "hipertension", "diabetes" }));
-        listaCiudadEditarPaciente.setSelectedIndex(-1);
-
-        listaEpsEditarPaciente.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "cancer", "cardiovasculares", "respiratorias", "cerebrovasculares", "hipertension", "diabetes" }));
-        listaEpsEditarPaciente.setSelectedIndex(-1);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -399,40 +543,27 @@ public class Main extends javax.swing.JFrame {
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addComponent(lblCedulaBuscarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtCedulaBuscarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txtCedulaBuscahhhrPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(botonBuscarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(botonBuscarPacientejj, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(botonEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(botonEditarPacientejkjj, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(34, 34, 34)
-                        .addComponent(botonEliminarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(botonEliminarPacjjjiente, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(33, 33, 33)
-                        .addComponent(botonLimpiarEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(botonLimpiarjjjEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txtNombreEditarPaciente)
-                            .addComponent(lblNombreEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(lblNombreEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(txtCedulaEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(txtEdadEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(lblCedulaEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(lblEdadEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addComponent(lblCedulaEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(lblEdadEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(lblBusqueda, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addGroup(jPanel3Layout.createSequentialGroup()
-                            .addComponent(listaCiudadEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(18, 18, 18)
-                            .addComponent(listaEpsEditarPaciente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel3Layout.createSequentialGroup()
-                            .addComponent(lblCiudadEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(18, 18, 18)
-                            .addComponent(lblEpsEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(135, Short.MAX_VALUE))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(lblCiudadEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(lblEpsEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(134, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -440,8 +571,8 @@ public class Main extends javax.swing.JFrame {
                 .addGap(16, 16, 16)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblCedulaBuscarPaciente)
-                    .addComponent(txtCedulaBuscarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(botonBuscarPaciente))
+                    .addComponent(txtCedulaBuscahhhrPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(botonBuscarPacientejj))
                 .addGap(18, 18, 18)
                 .addComponent(lblBusqueda)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -449,24 +580,15 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(lblNombreEditarPaciente)
                     .addComponent(lblCedulaEditarPaciente)
                     .addComponent(lblEdadEditarPaciente))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtNombreEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtCedulaEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtEdadEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addGap(46, 46, 46)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblCiudadEditarPaciente)
                     .addComponent(lblEpsEditarPaciente))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 206, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(listaEpsEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(listaCiudadEditarPaciente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 166, Short.MAX_VALUE)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(botonEditarPaciente)
-                    .addComponent(botonEliminarPaciente)
-                    .addComponent(botonLimpiarEditarPaciente))
+                    .addComponent(botonEditarPacientejkjj)
+                    .addComponent(botonEliminarPacjjjiente)
+                    .addComponent(botonLimpiarjjjEditarPaciente))
                 .addGap(149, 149, 149))
         );
 
@@ -520,13 +642,11 @@ public class Main extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(30, 30, 30)
-                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(22, 22, 22)
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addComponent(botonPacientesSinAsignacion, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel5Layout.createSequentialGroup()
                                 .addComponent(lblBuscarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(37, 37, 37)
@@ -542,22 +662,19 @@ public class Main extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(lblEspecialidadAsignar, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtlistaEspecialidadAsignar, javax.swing.GroupLayout.DEFAULT_SIZE, 281, Short.MAX_VALUE)))
+                                    .addComponent(txtlistaEspecialidadAsignar, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(jPanel5Layout.createSequentialGroup()
                                 .addComponent(lblCedulaMedicoBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(txtCedulaBuscarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(31, 31, 31)
-                                .addComponent(botonBuscarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(botonLimpiarAsignar, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel5Layout.createSequentialGroup()
-                                        .addGap(18, 18, 18)
-                                        .addComponent(botonPacientesSinAsignacion, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(0, 0, Short.MAX_VALUE)))
-                                .addGap(72, 72, 72)))))
-                .addGap(16, 16, 16))
+                                .addGap(167, 167, 167)
+                                .addComponent(botonBuscarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(46, 46, 46)
+                                .addComponent(botonLimpiarAsignar, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(30, 30, 30)
+                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(38, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -568,9 +685,7 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(jLabel3))
                 .addGap(19, 19, 19)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(lblCedulaMedicoBuscar)
-                        .addComponent(txtCedulaBuscarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(lblCedulaMedicoBuscar)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(botonBuscarMedico)
                         .addComponent(botonLimpiarAsignar)))
@@ -610,26 +725,72 @@ public class Main extends javax.swing.JFrame {
 
         lblEpsMedico.setText("Eps Vinculada");
 
-        botonIngresarMedico.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        botonIngresarMedico.setText("Ingresar Médico");
-        botonIngresarMedico.addActionListener(new java.awt.event.ActionListener() {
+        btnIngresarMedico.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnIngresarMedico.setText("Ingresar Médico");
+        btnIngresarMedico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonIngresarMedicoActionPerformed(evt);
+                btnIngresarMedicoActionPerformed(evt);
             }
         });
 
-        lblEspecialidad.setText("Especialidad");
+        lblEspecialidadMedico.setText("Especialidad");
 
-        listaEspecialidad.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Oncologo-cancer", "Cardiologo-cardiovasculares", "Neumologo-respiratorias", "Neurologo-cerebrovasculares", "Internista-hipertension", "Endocrinologo-diabetes" }));
-        listaEspecialidad.setSelectedIndex(-1);
+        listaEspecialidadMedico.setSelectedIndex(-1);
 
-        listaEpsMedico.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Oncologo-cancer", "Cardiologo-cardiovasculares", "Neumologo-respiratorias", "Neurologo-cerebrovasculares", "Internista-hipertension", "Endocrinologo-diabetes" }));
         listaEpsMedico.setSelectedIndex(-1);
 
-        listaCiudadMedico.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Oncologo-cancer", "Cardiologo-cardiovasculares", "Neumologo-respiratorias", "Neurologo-cerebrovasculares", "Internista-hipertension", "Endocrinologo-diabetes" }));
         listaCiudadMedico.setSelectedIndex(-1);
 
         lblCiudadMedico.setText("Ciudad");
+
+        lblIngresarMedico1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        lblIngresarMedico1.setText("Editar datos de médico");
+
+        btnEditarMedico.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnEditarMedico.setText("Editar Médico");
+        btnEditarMedico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEditarMedicoActionPerformed(evt);
+            }
+        });
+
+        lblEspecialidadMedico1.setText("Especialidad");
+
+        lblCiudadMedico1.setText("Ciudad");
+
+        lblNombreMedico1.setText("Nombre");
+
+        lblCedulaMedico1.setText("Cédula");
+
+        txtCedulaEditarMedico.setMaximumSize(new java.awt.Dimension(158, 2147483647));
+
+        lblEpsMedico1.setText("Eps Vinculada");
+
+        lblCedulaBuscarPaciente1.setText("Cédula Médico");
+
+        btnBuscarMedico.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnBuscarMedico.setText("Buscar");
+        btnBuscarMedico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBuscarMedicoActionPerformed(evt);
+            }
+        });
+
+        btnEliminarMedico.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnEliminarMedico.setText("Eliminar Médico");
+        btnEliminarMedico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEliminarMedicoActionPerformed(evt);
+            }
+        });
+
+        btnLimpiarMedico.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnLimpiarMedico.setText("Buscar");
+        btnLimpiarMedico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLimpiarMedicoActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -638,48 +799,80 @@ public class Main extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(32, 32, 32)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                    .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
                                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(lblEpsMedico, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(listaEpsMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(18, 18, 18)
-                                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(listaEspecialidad, javax.swing.GroupLayout.Alignment.LEADING, 0, 1, Short.MAX_VALUE)
-                                    .addComponent(lblEspecialidad, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(lblNombreMedico, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
-                                    .addComponent(txtNombreMedico))
+                                    .addComponent(lblNombreMedico1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(txtNombreEditarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(18, 18, 18)
                                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(txtCedulaMedico, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(txtCedulaEditarMedico, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addGroup(jPanel4Layout.createSequentialGroup()
-                                        .addComponent(lblCedulaMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(0, 0, Short.MAX_VALUE)))))
+                                        .addComponent(lblCedulaMedico1, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(0, 0, Short.MAX_VALUE))))
+                            .addGroup(jPanel4Layout.createSequentialGroup()
+                                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(lblEpsMedico1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(listaEpsEditarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(listaEspecialidadEditarMedico, javax.swing.GroupLayout.Alignment.LEADING, 0, 1, Short.MAX_VALUE)
+                                    .addComponent(lblEspecialidadMedico1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(listaCiudadMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblCiudadMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(131, 131, 131))
+                            .addComponent(lblCiudadMedico1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel4Layout.createSequentialGroup()
+                                .addGap(8, 8, 8)
+                                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(lblCiudadMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(listaCiudadMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btnIngresarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btnEditarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btnEliminarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(listaCiudadEditarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(333, 333, 333))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(lblIngresarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(196, 196, 196)
-                .addComponent(botonIngresarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel4Layout.createSequentialGroup()
+                                .addComponent(lblCedulaBuscarPaciente1, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtCedulaBuscarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnBuscarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btnLimpiarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(jPanel4Layout.createSequentialGroup()
+                                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(lblNombreMedico, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
+                                        .addComponent(txtNombreMedico))
+                                    .addGap(18, 18, 18)
+                                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(lblCedulaMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(txtCedulaMedico, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addComponent(lblIngresarMedico1, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(jPanel4Layout.createSequentialGroup()
+                                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(lblEpsMedico, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(listaEpsMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGap(18, 18, 18)
+                                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(listaEspecialidadMedico, javax.swing.GroupLayout.Alignment.LEADING, 0, 1, Short.MAX_VALUE)
+                                        .addComponent(lblEspecialidadMedico, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(20, 20, 20)
+                .addComponent(lblIngresarMedico)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addComponent(lblIngresarMedico)
-                        .addGap(22, 22, 22)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(lblNombreMedico)
                             .addComponent(lblCedulaMedico))
@@ -691,17 +884,54 @@ public class Main extends javax.swing.JFrame {
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(txtCedulaMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(listaCiudadMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblEspecialidadMedico)
+                    .addComponent(lblEpsMedico))
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(listaEspecialidadMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(listaEpsMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(5, 5, 5)
+                        .addComponent(btnIngresarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(59, 59, 59)
+                .addComponent(lblIngresarMedico1)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblEspecialidad)
-                    .addComponent(lblEpsMedico))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addComponent(lblCedulaBuscarPaciente1)
+                    .addComponent(txtCedulaBuscarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBuscarMedico)
+                    .addComponent(btnLimpiarMedico))
+                .addGap(25, 25, 25)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNombreMedico1)
+                            .addComponent(lblCedulaMedico1))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtNombreEditarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(lblCiudadMedico1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txtCedulaEditarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(listaCiudadEditarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(18, 18, 18)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(listaEspecialidad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(listaEpsMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addComponent(botonIngresarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(287, Short.MAX_VALUE))
+                    .addComponent(lblEspecialidadMedico1)
+                    .addComponent(lblEpsMedico1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnEditarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(listaEspecialidadEditarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(listaEpsEditarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addComponent(btnEliminarMedico, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(42, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Ingresar Médico", jPanel4);
@@ -817,114 +1047,107 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btnBuscarEnfermedad1.setText("Limpiar");
-        btnBuscarEnfermedad1.addActionListener(new java.awt.event.ActionListener() {
+        btnLimpiarEnfermedad.setText("Limpiar");
+        btnLimpiarEnfermedad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBuscarEnfermedad1ActionPerformed(evt);
+                btnLimpiarEnfermedadActionPerformed(evt);
             }
         });
 
         btnEditarEnfermedad1.setText("Eliminar Enfermedad");
+        btnEditarEnfermedad1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEditarEnfermedad1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel6Layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
+                .addGap(33, 33, 33)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel6Layout.createSequentialGroup()
+                                .addComponent(lblCiudadIngresar1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(lblEpsIngresar1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addGroup(jPanel6Layout.createSequentialGroup()
                                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel6Layout.createSequentialGroup()
-                                        .addComponent(lblCiudadIngresar1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(0, 9, Short.MAX_VALUE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(btnEditarCiudad, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(txtCiudadModificar)
-                                            .addComponent(btnEliminarCiudad, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE))
-                                        .addGap(9, 9, 9)))
-                                .addGap(0, 9, Short.MAX_VALUE)
+                                    .addComponent(txtCiudadModificar)
+                                    .addComponent(btnEliminarCiudad, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(btnEditarCiudad, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(18, 18, 18)
                                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(btnEditarEps, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(txtEpsModificar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(18, 18, 18)
-                                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(txtEspecialidadModificar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(btnEditarEspecialidad, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                                        .addComponent(lblEpsIngresar1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(lblEs1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel6Layout.createSequentialGroup()
-                                        .addComponent(btnEliminarEps, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(btnEliminarEspecialidad, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                    .addComponent(txtEpsModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btnEditarEps, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btnEliminarEps, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(52, 52, 52)))
+                        .addGap(464, 464, 464))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(lblIngresar2, javax.swing.GroupLayout.PREFERRED_SIZE, 518, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(lblIngresar1, javax.swing.GroupLayout.PREFERRED_SIZE, 518, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(jPanel6Layout.createSequentialGroup()
+                                    .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(btnIngresarCiudad, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(lblCiudadIngresar, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(txtCiudadIngresar, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGap(18, 18, 18)
+                                    .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(jPanel6Layout.createSequentialGroup()
+                                            .addComponent(lblEpsIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGap(18, 18, 18)
+                                            .addComponent(lblEs, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGroup(jPanel6Layout.createSequentialGroup()
+                                            .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                                .addComponent(btnIngresarEps, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                .addComponent(txtEpsIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGap(18, 18, 18)
+                                            .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                                .addComponent(txtEspecialidadIngresar)
+                                                .addComponent(btnIngresarEspecialidad, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))))))
                             .addGroup(jPanel6Layout.createSequentialGroup()
                                 .addComponent(listaCiudadModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(listaEpsModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(listaEspecialidadModificar, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                    .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(lblIngresar3, javax.swing.GroupLayout.PREFERRED_SIZE, 518, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblIngresar2, javax.swing.GroupLayout.PREFERRED_SIZE, 518, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblIngresar1, javax.swing.GroupLayout.PREFERRED_SIZE, 518, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel6Layout.createSequentialGroup()
-                                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(btnIngresarCiudad, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(lblCiudadIngresar, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
-                                    .addComponent(txtCiudadIngresar, javax.swing.GroupLayout.Alignment.LEADING))
-                                .addGap(18, 18, 18)
+                                .addGap(24, 24, 24)
                                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel6Layout.createSequentialGroup()
-                                        .addComponent(lblEpsIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(lblEs, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel6Layout.createSequentialGroup()
-                                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                            .addComponent(btnIngresarEps, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(txtEpsIngresar, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE))
-                                        .addGap(18, 18, 18)
-                                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(txtEspecialidadIngresar, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
-                                            .addComponent(btnIngresarEspecialidad, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))))
-                .addGap(130, 130, 130))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                                    .addComponent(btnEditarEspecialidad, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(txtEspecialidadModificar, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
+                                        .addComponent(listaEspecialidadModificar, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(btnEliminarEspecialidad, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lblEs1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGap(0, 0, Short.MAX_VALUE))))
+            .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGap(31, 31, 31)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(listaEnfermedadEspecialidadIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblEs2, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtEnfermedadIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnIngresarEnfermedad, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblIngresar3, javax.swing.GroupLayout.PREFERRED_SIZE, 518, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(btnBuscarEnfermedad1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnEditarEnfermedad1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(listaEnfermedadEspecialidadIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblEs2, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtEnfermedadIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnIngresarEnfermedad, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(111, 111, 111)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(lblEs4, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(18, 18, 18)
-                            .addComponent(txtEnfermedadModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel6Layout.createSequentialGroup()
-                            .addComponent(btnBuscarEnfermedad, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(18, 18, 18)
-                            .addComponent(btnEditarEnfermedad, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel6Layout.createSequentialGroup()
                             .addComponent(listaEnfermedadModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(18, 18, 18)
-                            .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(listaEnfermedadEspecialidadModificar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(lblEs3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap())
+                            .addComponent(btnBuscarEnfermedad, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnLimpiarEnfermedad, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtEnfermedadModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblEs3, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(listaEnfermedadEspecialidadModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnEditarEnfermedad, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnEditarEnfermedad1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -973,9 +1196,9 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(btnEliminarCiudad)
                     .addComponent(btnEliminarEps)
                     .addComponent(btnEliminarEspecialidad))
-                .addGap(18, 18, 18)
+                .addGap(24, 24, 24)
                 .addComponent(lblIngresar3)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addComponent(txtEnfermedadIngresar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -986,14 +1209,12 @@ public class Main extends javax.swing.JFrame {
                         .addGap(12, 12, 12)
                         .addComponent(btnIngresarEnfermedad))
                     .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel6Layout.createSequentialGroup()
                                 .addComponent(txtEnfermedadModificar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(lblEs3))
-                            .addGroup(jPanel6Layout.createSequentialGroup()
-                                .addGap(3, 3, 3)
-                                .addComponent(lblEs4, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(lblEs4, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(listaEnfermedadEspecialidadModificar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1004,9 +1225,9 @@ public class Main extends javax.swing.JFrame {
                             .addComponent(btnBuscarEnfermedad))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnBuscarEnfermedad1)
+                    .addComponent(btnLimpiarEnfermedad)
                     .addComponent(btnEditarEnfermedad1))
-                .addContainerGap(9, Short.MAX_VALUE))
+                .addContainerGap(21, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Ingresar Otros", jPanel6);
@@ -1016,9 +1237,8 @@ public class Main extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jTabbedPane1)
-                .addContainerGap())
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 672, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1036,15 +1256,26 @@ public class Main extends javax.swing.JFrame {
         String query = "select Id, Ciudad From Ciudades Order by Ciudad;";
         ResultSet ciudades = conector.ejecutarQuery(conexionBD, query);
         limpiarListaCiudadModificar();
+        limpiarListaCiudadPaciente();
+        limpiarListaCiudadMedico();
+
         DefaultComboBoxModel comboBoxCiudades = (DefaultComboBoxModel) listaCiudadModificar.getModel();
+        DefaultComboBoxModel comboBoxCiudadesPaciente = (DefaultComboBoxModel) listaCiudadPaciente.getModel();
+        DefaultComboBoxModel comboBoxCiudadesMedico = (DefaultComboBoxModel) listaCiudadMedico.getModel();
         try {
             while (ciudades.next()) {
                 //String id = ciudades.getString("Id");
                 String ciudad = ciudades.getString("Ciudad");
                 comboBoxCiudades.addElement(ciudad);
+                comboBoxCiudadesPaciente.addElement(ciudad);
+                comboBoxCiudadesMedico.addElement(ciudad);
             }
             listaCiudadModificar.setModel(comboBoxCiudades);
             listaCiudadModificar.setSelectedIndex(-1);
+            listaCiudadPaciente.setModel(comboBoxCiudadesPaciente);
+            listaCiudadPaciente.setSelectedIndex(-1);
+            listaCiudadMedico.setModel(comboBoxCiudadesMedico);
+            listaCiudadMedico.setSelectedIndex(-1);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
@@ -1055,20 +1286,40 @@ public class Main extends javax.swing.JFrame {
         listaCiudadModificar.setModel(comboBoxVacio);
     }
 
+    public void limpiarListaCiudadPaciente() {
+        DefaultComboBoxModel comboBoxVacio = new DefaultComboBoxModel();
+        listaCiudadPaciente.setModel(comboBoxVacio);
+    }
+
+    public void limpiarListaCiudadMedico() {
+        DefaultComboBoxModel comboBoxVacio = new DefaultComboBoxModel();
+        listaCiudadMedico.setModel(comboBoxVacio);
+    }
+
     private void actualizarListaEpsModificar() {
         Connection conexionBD = conector.crearConexion();
         String query = "select Id, EPS From EPS Order by EPS;";
         ResultSet eps = conector.ejecutarQuery(conexionBD, query);
         limpiarListaEpsModificar();
+        limpiarListaEpsPaciente();
+        limpiarListaEpsMedico();
         DefaultComboBoxModel comboBoxEps = (DefaultComboBoxModel) listaEpsModificar.getModel();
+        DefaultComboBoxModel comboBoxEpsPaciente = (DefaultComboBoxModel) listaEpsPaciente.getModel();
+        DefaultComboBoxModel comboBoxEpsMedico = (DefaultComboBoxModel) listaEpsMedico.getModel();
         try {
             while (eps.next()) {
                 //String id = ciudades.getString("Id");
                 String EPS = eps.getString("EPS");
                 comboBoxEps.addElement(EPS);
+                comboBoxEpsPaciente.addElement(EPS);
+                comboBoxEpsMedico.addElement(EPS);
             }
             listaEpsModificar.setModel(comboBoxEps);
             listaEpsModificar.setSelectedIndex(-1);
+            listaEpsPaciente.setModel(comboBoxEpsPaciente);
+            listaEpsPaciente.setSelectedIndex(-1);
+            listaEpsMedico.setModel(comboBoxEpsMedico);
+            listaEpsMedico.setSelectedIndex(-1);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
@@ -1079,6 +1330,16 @@ public class Main extends javax.swing.JFrame {
         listaEpsModificar.setModel(comboBoxVacio);
     }
 
+    public void limpiarListaEpsPaciente() {
+        DefaultComboBoxModel comboBoxVacio = new DefaultComboBoxModel();
+        listaEpsPaciente.setModel(comboBoxVacio);
+    }
+
+    public void limpiarListaEpsMedico() {
+        DefaultComboBoxModel comboBoxVacio = new DefaultComboBoxModel();
+        listaEpsMedico.setModel(comboBoxVacio);
+    }
+
     private void actualizarListaEspecialidadModificar() {
         Connection conexionBD = conector.crearConexion();
         String query = "select Id, Especialidad From Especialidades Order by Especialidad;";
@@ -1086,10 +1347,12 @@ public class Main extends javax.swing.JFrame {
         limpiarListaEspecialidadModificar();
         limpiarListaEnfermedadEspecialidadIngresar();
         limpiarListaEnfermedadEspecialidadModificar();
+        limpiarListaEspecialidadMedico();
 
         DefaultComboBoxModel comboBoxEspecialidad = (DefaultComboBoxModel) listaEspecialidadModificar.getModel();
         DefaultComboBoxModel comboBoxEspecialidad2 = (DefaultComboBoxModel) listaEnfermedadEspecialidadIngresar.getModel();
         DefaultComboBoxModel comboBoxEspecialidad3 = (DefaultComboBoxModel) listaEnfermedadEspecialidadModificar.getModel();
+        DefaultComboBoxModel comboBoxEspecialidadMedico = (DefaultComboBoxModel) listaEspecialidadMedico.getModel();
         try {
             while (especialidades.next()) {
                 //String id = ciudades.getString("Id");
@@ -1097,6 +1360,7 @@ public class Main extends javax.swing.JFrame {
                 comboBoxEspecialidad.addElement(Especialidad);
                 comboBoxEspecialidad2.addElement(Especialidad);
                 comboBoxEspecialidad3.addElement(Especialidad);
+                comboBoxEspecialidadMedico.addElement(Especialidad);
             }
             listaEspecialidadModificar.setModel(comboBoxEspecialidad);
             listaEspecialidadModificar.setSelectedIndex(-1);
@@ -1104,6 +1368,8 @@ public class Main extends javax.swing.JFrame {
             listaEnfermedadEspecialidadIngresar.setSelectedIndex(-1);
             listaEnfermedadEspecialidadModificar.setModel(comboBoxEspecialidad3);
             listaEnfermedadEspecialidadModificar.setSelectedIndex(-1);
+            listaEspecialidadMedico.setModel(comboBoxEspecialidadMedico);
+            listaEspecialidadMedico.setSelectedIndex(-1);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
@@ -1122,6 +1388,11 @@ public class Main extends javax.swing.JFrame {
     public void limpiarListaEnfermedadEspecialidadModificar() {
         DefaultComboBoxModel comboBoxVacio = new DefaultComboBoxModel();
         listaEnfermedadEspecialidadModificar.setModel(comboBoxVacio);
+    }
+
+    public void limpiarListaEspecialidadMedico() {
+        DefaultComboBoxModel comboBoxVacio = new DefaultComboBoxModel();
+        listaEspecialidadMedico.setModel(comboBoxVacio);
     }
 
     private void actualizarListaEnfermedadModificar() {
@@ -1147,27 +1418,6 @@ public class Main extends javax.swing.JFrame {
         listaEnfermedadModificar.setModel(comboBoxVacio);
     }
 
-
-    private void botonIngresarMedicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonIngresarMedicoActionPerformed
-        try {
-            String nombre = txtNombreMedico.getText().trim();
-            String cedula = txtCedulaMedico.getText().trim();
-            String ciudad = listaCiudadMedico.getSelectedItem().toString();
-            String eps = listaEpsMedico.getSelectedItem().toString();
-            String especialidad = listaEspecialidad.getSelectedItem().toString();
-            //Se verifica que ningun campo esté vacío
-            if (!nombre.isBlank() && !cedula.isBlank() && listaCiudadMedico.getSelectedIndex() != -1 && listaEpsMedico.getSelectedIndex() != -1 && listaEspecialidad.getSelectedIndex() != -1) {
-                //limpiarListaMedicos();
-                //Se llama al método agregarMedico el cual permite agregar a la lista de Medicos
-                agregarMedico(nombre, cedula, ciudad, eps, especialidad);
-            } else {
-                JOptionPane.showMessageDialog(this, String.format("Asegúrese de escribir y/o seleccionar todos los campos"));
-            }
-
-        } catch (NullPointerException ex) {
-            JOptionPane.showMessageDialog(this, "Debe seleccionar especialidad");
-        }
-    }//GEN-LAST:event_botonIngresarMedicoActionPerformed
 
     private void botonLimpiarAsignarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonLimpiarAsignarActionPerformed
         /*
@@ -1246,21 +1496,21 @@ public class Main extends javax.swing.JFrame {
         //pacientesSinAsignacion();
     }//GEN-LAST:event_botonPacientesSinAsignacionActionPerformed
 
-    private void botonLimpiarEditarPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonLimpiarEditarPacienteActionPerformed
+    private void botonLimpiarjjjEditarPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonLimpiarjjjEditarPacienteActionPerformed
         limpiarEditar();
-    }//GEN-LAST:event_botonLimpiarEditarPacienteActionPerformed
+    }//GEN-LAST:event_botonLimpiarjjjEditarPacienteActionPerformed
 
-    private void botonBuscarPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonBuscarPacienteActionPerformed
+    private void botonBuscarPacientejjActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonBuscarPacientejjActionPerformed
         //Comprueba que se haya digitado un valor en la cedula a buscar
-        if (txtCedulaBuscarPaciente.getText().trim().isBlank()) {
+        if (txtCedulaBuscahhhrPaciente.getText().trim().isBlank()) {
             JOptionPane.showMessageDialog(this, "Escriba una cédula a buscar");
         } else {
             //bloquea el campo de la cedula a buscar
-            txtCedulaBuscarPaciente.setEditable(false);
+            txtCedulaBuscahhhrPaciente.setEditable(false);
             //Se crea el vector enfermedades para luego asignarle la enfermedad al combobox listaEnfermedadesEditar
             String[] enfermedades = new String[]{"cancer", "cardiovasculares", "respiratorias", "cerebrovasculares", "hipertension", "diabetes"};
             //Se crea el objeto cedulaBuscar que adquiere el valor del campo correspondiente
-            String cedulaBuscar = this.txtCedulaBuscarPaciente.getText().trim();
+            String cedulaBuscar = this.txtCedulaBuscahhhrPaciente.getText().trim();
             //Se verifica que se haya digitado una cédula
             if (cedulaBuscar.isBlank()) {
                 JOptionPane.showMessageDialog(this, "Escriba una cédula para buscar sus datos");
@@ -1268,9 +1518,9 @@ public class Main extends javax.swing.JFrame {
 
             }
         }
-    }//GEN-LAST:event_botonBuscarPacienteActionPerformed
+    }//GEN-LAST:event_botonBuscarPacientejjActionPerformed
 
-    private void botonEliminarPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonEliminarPacienteActionPerformed
+    private void botonEliminarPacjjjienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonEliminarPacjjjienteActionPerformed
         try {
             //Se asignan variables a la informacion digitada, eliminandose antes los posibles espacios iniciales y finales (trim)
             String nombre = txtNombreEditarPaciente.getText().trim();
@@ -1283,11 +1533,11 @@ public class Main extends javax.swing.JFrame {
             if (!nombre.isBlank() && !cedula.isBlank() && !txtEdadEditarPaciente.getText().trim().isBlank() && listaCiudadEditarPaciente.getSelectedIndex() != -1 && listaEpsEditarPaciente.getSelectedIndex() != -1) {
                 //proceder con el delete
 
-                if (eliminar(txtCedulaBuscarPaciente.getText().trim())) {
+                if (eliminar(txtCedulaBuscahhhrPaciente.getText().trim())) {
                     JOptionPane.showMessageDialog(this, String.format("Eliminado exitosamente"));
                     //Una vez eliminado el paciente, se desbloquea el campo de la cedula a buscar
-                    txtCedulaBuscarPaciente.setEditable(true);
-                    txtCedulaBuscarPaciente.setText("");
+                    txtCedulaBuscahhhrPaciente.setEditable(true);
+                    txtCedulaBuscahhhrPaciente.setText("");
                     //Se llama al método limpiarEditar para dejar en blanco todos los campos
                     limpiarEditar();
                 } else {
@@ -1304,7 +1554,7 @@ public class Main extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Debe seleccionar enfermedad");
             System.out.println(ex.getMessage());
         }
-    }//GEN-LAST:event_botonEliminarPacienteActionPerformed
+    }//GEN-LAST:event_botonEliminarPacjjjienteActionPerformed
 
     /**
      * Busca y agrega todos los pacientes creados a la listaDatos del menu
@@ -1319,7 +1569,7 @@ public class Main extends javax.swing.JFrame {
         }
     }*/
 
-    private void botonEditarPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonEditarPacienteActionPerformed
+    private void botonEditarPacientejkjjActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonEditarPacientejkjjActionPerformed
         try {
             String nombre = txtNombreEditarPaciente.getText().trim();
             String cedula = txtCedulaEditarPaciente.getText().trim();
@@ -1337,8 +1587,8 @@ public class Main extends javax.swing.JFrame {
                 listaCiudadEditarPaciente.setSelectedIndex(-1);
                 listaEpsEditarPaciente.setSelectedIndex(-1);
 
-                txtCedulaBuscarPaciente.setEditable(true);
-                txtCedulaBuscarPaciente.setText("");
+                txtCedulaBuscahhhrPaciente.setEditable(true);
+                txtCedulaBuscahhhrPaciente.setText("");
 
             } else {
                 JOptionPane.showMessageDialog(this, String.format("Asegúrese de escribir y/o seleccionar todos los campos"));
@@ -1350,7 +1600,7 @@ public class Main extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Debe seleccionar enfermedad");
             System.out.println(ex.getMessage());
         }
-    }//GEN-LAST:event_botonEditarPacienteActionPerformed
+    }//GEN-LAST:event_botonEditarPacientejkjjActionPerformed
 
     /**
      * 1-Llama al metodo procesar 2-Verifica que hayan pacientes ingresados 3-Se
@@ -1476,28 +1726,55 @@ public class Main extends javax.swing.JFrame {
         //procesar();
     }//GEN-LAST:event_botonProcesarActionPerformed
 
-    private void botonIngresarPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonIngresarPacienteActionPerformed
-        try {
-            String nombre = txtNombrePaciente.getText().trim();
-            String cedula = txtCedulaPaciente.getText().trim();
-            Integer edad = Integer.parseInt(txtEdadPaciente.getText().trim());
-            String ciudad = listaCiudadPaciente.getSelectedItem().toString();
-            String eps = listaEpsPaciente.getSelectedItem().toString();
-
-            if (!nombre.isBlank() && !cedula.isBlank() && !txtEdadPaciente.getText().trim().isBlank() && edad > 0 && listaCiudadPaciente.getSelectedIndex() != -1 && listaEpsPaciente.getSelectedIndex() != -1) {
-                agregarPaciente(nombre, cedula, edad, ciudad, eps);
-            } else {
-                JOptionPane.showMessageDialog(this, String.format("Asegúrese de escribir y/o seleccionar todos los campos"));
+    private void btnIngresarPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIngresarPacienteActionPerformed
+        Connection conexionBD = conector.crearConexion();
+        if (conexionBD == null) {
+            JOptionPane.showConfirmDialog(this, "No se pudo crear la conexion");
+        } else {
+            try {
+                String nombre = txtNombrePaciente.getText().trim();
+                String cedula = txtCedulaPaciente.getText().trim();
+                Integer edad = Integer.parseInt(txtEdadPaciente.getText().trim());
+                String ciudad = listaCiudadPaciente.getSelectedItem().toString();
+                String eps = listaEpsPaciente.getSelectedItem().toString();
+                if (!nombre.isBlank() && !cedula.isBlank()) {
+                    //obtener el Id de la ciudad
+                    String textoQuerySelect = "Select * from Ciudades where Ciudad = '%1$s';";
+                    String querySelect = String.format(textoQuerySelect, ciudad);
+                    ResultSet resultados = conector.ejecutarQuery(conexionBD, querySelect);
+                    Integer idCiudad = resultados.getInt("Id");
+                    //Obtener el Id de la eps
+                    textoQuerySelect = "Select * from EPS where EPS = '%1$s';";
+                    querySelect = String.format(textoQuerySelect, eps);
+                    resultados = conector.ejecutarQuery(conexionBD, querySelect);
+                    Integer idEps = resultados.getInt("Id");
+                    //ahora insertar en tabla Pacientes
+                    String textoQuery = "insert into Pacientes (Nombre, Cedula, Edad, Id_Ciudad, Id_EPS) VALUES ('%1$s', '%2$s', %3$d, %4$d, %5$d);";
+                    String query = String.format(textoQuery, nombre, cedula, edad, idCiudad, idEps);
+                    System.out.println(query);
+                    Integer filasAfectadas = conector.ejecutarActualizacion(conexionBD, query);
+                    if (filasAfectadas > 0) {
+                        JOptionPane.showMessageDialog(this, String.format("Paciente creado exitosamente."));
+                        txtNombrePaciente.setText("");
+                        txtCedulaPaciente.setText("");
+                        txtEdadPaciente.setText("");
+                        listaCiudadPaciente.setSelectedIndex(-1);
+                        listaEpsPaciente.setSelectedIndex(-1);
+                    } else {
+                        JOptionPane.showMessageDialog(this, String.format("El Paciente con esa cedula ya existe."));
+                    }
+                } else {
+                    JOptionPane.showMessageDialog(this, String.format("Debe completar los datos. Todos son obligatorios"));
+                }
+            } catch (SQLException e) {
+                JOptionPane.showConfirmDialog(this, "Error en la conexión con Base de Datos");
+            } catch (NullPointerException e) {
+                JOptionPane.showConfirmDialog(this, "Debe seleccionar todos los campos");
+            } catch (NumberFormatException e) {
+                JOptionPane.showConfirmDialog(this, "Debe escribir una edad válida");
             }
-
-        } catch (NumberFormatException ex) {
-            JOptionPane.showMessageDialog(this, "Debe digitar una edad válida.");
-            //System.out.println(ex.getMessage());
-        } catch (NullPointerException ex) {
-            JOptionPane.showMessageDialog(this, "Debe seleccionar ciudad y eps");
-            //System.out.println(ex.getMessage());
         }
-    }//GEN-LAST:event_botonIngresarPacienteActionPerformed
+    }//GEN-LAST:event_btnIngresarPacienteActionPerformed
 
     private void btnEditarEpsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditarEpsActionPerformed
         Connection conexionBD = conector.crearConexion();
@@ -1770,9 +2047,7 @@ public class Main extends javax.swing.JFrame {
                 String enfermedadNueva = resultados.getString("Enfermedad");
                 String idEspecialidadNueva = resultados.getString("Id_Especialidad");
                 txtEnfermedadModificar.setText(enfermedadNueva);
-                //System.out.println(idEspecialidadNueva);
                 String textoQuerySelect2 = "Select * from Especialidades where Id = '%1$s';";
-                //System.out.println(textoQuerySelect2);
                 String querySelect2 = String.format(textoQuerySelect2, idEspecialidadNueva);
                 ResultSet resultados2 = conector.ejecutarQuery(conexionBD, querySelect2);
                 String especialidad = resultados2.getString("Especialidad");
@@ -1782,7 +2057,7 @@ public class Main extends javax.swing.JFrame {
                     }
                 }
                 listaEnfermedadModificar.setEnabled(false);
-
+                conexionBD.close();
                 /*
                 Integer idEspecialidad = resultados.getInt("Id");
                 String textoQuery = "insert into Enfermedades (Enfermedad, Id_Especialidad) VALUES ('%1$s', %2$d);";
@@ -1845,12 +2120,12 @@ public class Main extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_btnIngresarEnfermedadActionPerformed
 
-    private void btnBuscarEnfermedad1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarEnfermedad1ActionPerformed
+    private void btnLimpiarEnfermedadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiarEnfermedadActionPerformed
         txtEnfermedadModificar.setText("");
         listaEnfermedadModificar.setEnabled(true);
         listaEnfermedadModificar.setSelectedIndex(-1);
         listaEnfermedadEspecialidadModificar.setSelectedIndex(-1);
-    }//GEN-LAST:event_btnBuscarEnfermedad1ActionPerformed
+    }//GEN-LAST:event_btnLimpiarEnfermedadActionPerformed
 
     private void btnEditarEnfermedadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditarEnfermedadActionPerformed
         Connection conexionBD = conector.crearConexion();
@@ -1858,35 +2133,36 @@ public class Main extends javax.swing.JFrame {
             JOptionPane.showConfirmDialog(this, "No se pudo crear la conexion");
         } else {
             try {
-                //System.out.println(listaEnfermedadModificar.getSelectedIndex());
-                //System.out.println(listaEnfermedadEspecialidadModificar.getSelectedIndex());
-                String enfermedadAnterior = listaEnfermedadModificar.getSelectedItem().toString();
-                System.out.println(enfermedadAnterior);
-                String enfermedadNueva = txtEnfermedadModificar.getText().trim();
-                System.out.println(enfermedadNueva);
-                String especialidad = listaEnfermedadEspecialidadModificar.getSelectedItem().toString();
-                if (!enfermedadNueva.isBlank()) {
-                    //System.out.println(listaEnfermedadModificar.getSelectedIndex());
-                    //System.out.println(listaEnfermedadEspecialidadModificar.getSelectedIndex());
-                    String textoQuerySelect = "Select * from Especialidades where Especialidad = '%1$s';";
+                if (!txtEnfermedadModificar.getText().trim().isBlank()) {
+                    String enfermedadAnterior = listaEnfermedadModificar.getSelectedItem().toString();
+                    String enfermedadNueva = txtEnfermedadModificar.getText().trim();
+                    String especialidad = listaEnfermedadEspecialidadModificar.getSelectedItem().toString();
+                    String textoQuerySelect = "Select Id from Especialidades where Especialidad = '%1$s';";
                     String querySelect = String.format(textoQuerySelect, especialidad);
-                    //System.out.println(querySelect);
                     ResultSet resultados = conector.ejecutarQuery(conexionBD, querySelect);
-                    //System.out.println(resultados);
-                    Integer idEspecialidad = resultados.getInt("Id");
-                    String textoQuery = "update Enfermedades Set Enfermedad = '%1$s', Id_Especialidad = '%2$d' where Enfermedad = '%3$s';";
-                    String query = String.format(textoQuery, enfermedadNueva, idEspecialidad, enfermedadAnterior);
-                    System.out.println(query);
-                    Integer filasAfectadas = conector.ejecutarActualizacion(conexionBD, query);
-                    if (filasAfectadas > 0) {
-                        JOptionPane.showMessageDialog(this, String.format("Enfermedad creada exitosamente."));
-                        txtEnfermedadModificar.setText("");
-                        actualizarListaEnfermedadModificar();
-                        listaEnfermedadEspecialidadModificar.setSelectedIndex(-1);
-                        listaEnfermedadModificar.setEnabled(true);
-                        listaEnfermedadModificar.setSelectedIndex(-1);
-                    } else {
-                        JOptionPane.showMessageDialog(this, String.format("La enfermedad ya existe."));
+                    //String idEspecialidad = conector.dato;
+                    String idEspecialidad = resultados.getString("Id");
+                    System.out.println(idEspecialidad);
+
+                    if (JOptionPane.showConfirmDialog(this, "Está seguro de modificar?") == 0) {
+                        String textoQuery = "update Enfermedades SET Enfermedad = '%1$s', Id_Especialidad = '%2$s' where Enfermedad = '%3$s';";
+                        String query = String.format(textoQuery, enfermedadNueva, idEspecialidad, enfermedadAnterior);
+                        System.out.println(query);
+                        System.out.println(conexionBD);
+                        int filasAfectadas = conector.ejecutarActualizacion(conexionBD, query);
+                        System.out.println(filasAfectadas);
+
+                        if (filasAfectadas > 0) {
+                            JOptionPane.showMessageDialog(this, String.format("Enfermedad editada exitosamente."));
+                            txtEnfermedadModificar.setText("");
+                            actualizarListaEnfermedadModificar();
+                            listaEnfermedadEspecialidadModificar.setSelectedIndex(-1);
+                            listaEnfermedadModificar.setEnabled(true);
+                            listaEnfermedadModificar.setSelectedIndex(-1);
+                        } else {
+                            JOptionPane.showMessageDialog(this, String.format("La enfermedad ya existe."));
+                        }
+
                     }
 
                 } else {
@@ -1899,6 +2175,139 @@ public class Main extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_btnEditarEnfermedadActionPerformed
+
+    private void btnEditarEnfermedad1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditarEnfermedad1ActionPerformed
+        Connection conexionBD = conector.crearConexion();
+        if (conexionBD == null) {
+            JOptionPane.showConfirmDialog(this, "No se pudo crear la conexion");
+        } else {
+            try {
+                String enfermedadModificar = listaEnfermedadModificar.getSelectedItem().toString();
+                String textoQuery = "Delete from Enfermedades where Enfermedad = '%1$s';";
+                String query = String.format(textoQuery, enfermedadModificar);
+                System.out.println(query);
+                Integer filasAfectadas = conector.ejecutarActualizacion(conexionBD, query);
+                System.out.println(filasAfectadas);
+                if (filasAfectadas > 0) {
+                    JOptionPane.showMessageDialog(this, String.format("Enfermedad eliminada exitosamente."));
+                    txtEnfermedadModificar.setText("");
+                    actualizarListaEspecialidadModificar();
+                    actualizarListaEnfermedadModificar();
+                    txtEnfermedadModificar.setText("");
+                    listaEnfermedadModificar.setEnabled(true);
+                    listaEnfermedadModificar.setSelectedIndex(-1);
+                    listaEnfermedadEspecialidadModificar.setSelectedIndex(-1);
+                } else {
+                    JOptionPane.showMessageDialog(this, String.format("Hubo un error en la eliminación."));
+                }
+            } catch (NullPointerException ex) {
+                JOptionPane.showMessageDialog(this, "Debe seleccionar enfermedad");
+                //System.out.println(ex.getMessage());
+            }
+        }
+    }//GEN-LAST:event_btnEditarEnfermedad1ActionPerformed
+
+    private void btnIngresarMedicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIngresarMedicoActionPerformed
+        Connection conexionBD = conector.crearConexion();
+        if (conexionBD == null) {
+            JOptionPane.showConfirmDialog(this, "No se pudo crear la conexion");
+        } else {
+            try {
+                String nombre = txtNombreMedico.getText().trim();
+                String cedula = txtCedulaMedico.getText().trim();
+                String ciudad = listaCiudadMedico.getSelectedItem().toString();
+                String eps = listaEpsMedico.getSelectedItem().toString();
+                String especialidad = listaEspecialidadMedico.getSelectedItem().toString();
+                if (!nombre.isBlank() && !cedula.isBlank()) {
+                    //obtener el Id de la ciudad
+                    String textoQuerySelect = "Select * from Ciudades where Ciudad = '%1$s';";
+                    String querySelect = String.format(textoQuerySelect, ciudad);
+                    ResultSet resultados = conector.ejecutarQuery(conexionBD, querySelect);
+                    Integer idCiudad = resultados.getInt("Id");
+                    //Obtener el Id de la eps
+                    textoQuerySelect = "Select * from EPS where EPS = '%1$s';";
+                    querySelect = String.format(textoQuerySelect, eps);
+                    resultados = conector.ejecutarQuery(conexionBD, querySelect);
+                    Integer idEps = resultados.getInt("Id");
+                    //Obtener el Id de la especialidad
+                    textoQuerySelect = "Select * from Especialidades where Especialidad = '%1$s';";
+                    querySelect = String.format(textoQuerySelect, especialidad);
+                    resultados = conector.ejecutarQuery(conexionBD, querySelect);
+                    Integer idEspecialidad = resultados.getInt("Id");
+                    //ahora insertar en tabla Pacientes
+                    String textoQuery = "insert into Medicos (Nombre, Cedula, Id_Ciudad, Id_EPS, Id_Especialidad) VALUES ('%1$s', '%2$s', %3$d, %4$d, %5$d);";
+                    String query = String.format(textoQuery, nombre, cedula, idCiudad, idEps, idEspecialidad);
+                    System.out.println(query);
+                    Integer filasAfectadas = conector.ejecutarActualizacion(conexionBD, query);
+                    if (filasAfectadas > 0) {
+                        JOptionPane.showMessageDialog(this, String.format("Medico creado exitosamente."));
+                        txtNombreMedico.setText("");
+                        txtCedulaMedico.setText("");
+                        listaCiudadMedico.setSelectedIndex(-1);
+                        listaEpsMedico.setSelectedIndex(-1);
+                        listaEspecialidadMedico.setSelectedIndex(-1);
+                    } else {
+                        JOptionPane.showMessageDialog(this, String.format("El medico con esa cedula ya existe."));
+                    }
+                } else {
+                    JOptionPane.showMessageDialog(this, String.format("Debe completar los datos. Todos son obligatorios"));
+                }
+            } catch (SQLException e) {
+                JOptionPane.showConfirmDialog(this, "Error en la conexión con Base de Datos");
+            } catch (NullPointerException e) {
+                JOptionPane.showConfirmDialog(this, "Debe seleccionar todos los campos");
+            } catch (NumberFormatException e) {
+                JOptionPane.showConfirmDialog(this, "Debe escribir una edad válida");
+            }
+        }
+    }//GEN-LAST:event_btnIngresarMedicoActionPerformed
+
+    private void btnEditarMedicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditarMedicoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEditarMedicoActionPerformed
+
+    private void btnBuscarMedicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarMedicoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnBuscarMedicoActionPerformed
+
+    private void btnEliminarMedicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarMedicoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEliminarMedicoActionPerformed
+
+    private void btnEditarPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditarPacienteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEditarPacienteActionPerformed
+
+    private void btnBuscarPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarPacienteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnBuscarPacienteActionPerformed
+
+    private void btnEliminarPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarPacienteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEliminarPacienteActionPerformed
+
+    private void btnLimpiarPacienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiarPacienteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnLimpiarPacienteActionPerformed
+
+    private void btnLimpiarMedicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiarMedicoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnLimpiarMedicoActionPerformed
+    /*
+    private void ejecutarActualizacionEnfermedades(String textoQuery) {
+        JOptionPane.showConfirmDialog(this, "está seguro?");
+        
+        Connection conexionBD = conector.crearConexion();
+        try {
+            //String textoQuery = "Select * from Enfermedades;";
+
+            ResultSet filasAfectadas = conector.ejecutarQuery(conexionBD, textoQuery);
+            System.out.println(filasAfectadas.getString("Enfermedad"));
+
+        } catch (SQLException e) {
+            System.out.println("nada");
+        }
+    }*/
 
     /**
      * Crea la instancia paciente, agrega el paciente al vector, limpia campos y
@@ -1963,8 +2372,8 @@ public class Main extends javax.swing.JFrame {
         listaCiudadEditarPaciente.setSelectedIndex(-1);
         listaEpsEditarPaciente.setSelectedIndex(-1);
 
-        txtCedulaBuscarPaciente.setEditable(true);
-        txtCedulaBuscarPaciente.setText("");
+        txtCedulaBuscahhhrPaciente.setEditable(true);
+        txtCedulaBuscahhhrPaciente.setText("");
     }
 
     /**
@@ -1983,7 +2392,7 @@ public class Main extends javax.swing.JFrame {
         txtCedulaMedico.setText("");
         listaCiudadMedico.setSelectedIndex(-1);
         listaEpsMedico.setSelectedIndex(-1);
-        listaEspecialidad.setSelectedIndex(-1);
+        listaEspecialidadMedico.setSelectedIndex(-1);
 
         //Se agregan todos los medicos existentes en el vector medicos a la listaMedicos
         /*DefaultListModel modeloMedicos = (DefaultListModel)listaMedicos.getModel();
@@ -2072,30 +2481,38 @@ public class Main extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botonBuscarMedico;
-    private javax.swing.JButton botonBuscarPaciente;
-    private javax.swing.JButton botonEditarPaciente;
-    private javax.swing.JButton botonEliminarPaciente;
-    private javax.swing.JButton botonIngresarMedico;
-    private javax.swing.JButton botonIngresarPaciente;
+    private javax.swing.JButton botonBuscarPacientejj;
+    private javax.swing.JButton botonEditarPacientejkjj;
+    private javax.swing.JButton botonEliminarPacjjjiente;
     private javax.swing.JButton botonLimpiarAsignar;
-    private javax.swing.JButton botonLimpiarEditarPaciente;
+    private javax.swing.JButton botonLimpiarjjjEditarPaciente;
     private javax.swing.JButton botonObtener;
     private javax.swing.JButton botonPacientesSinAsignacion;
     private javax.swing.JButton botonProcesar;
     private javax.swing.JButton btnBuscarEnfermedad;
-    private javax.swing.JButton btnBuscarEnfermedad1;
+    private javax.swing.JButton btnBuscarMedico;
+    private javax.swing.JButton btnBuscarPaciente;
     private javax.swing.JButton btnEditarCiudad;
     private javax.swing.JButton btnEditarEnfermedad;
     private javax.swing.JButton btnEditarEnfermedad1;
     private javax.swing.JButton btnEditarEps;
     private javax.swing.JButton btnEditarEspecialidad;
+    private javax.swing.JButton btnEditarMedico;
+    private javax.swing.JButton btnEditarPaciente;
     private javax.swing.JButton btnEliminarCiudad;
     private javax.swing.JButton btnEliminarEps;
     private javax.swing.JButton btnEliminarEspecialidad;
+    private javax.swing.JButton btnEliminarMedico;
+    private javax.swing.JButton btnEliminarPaciente;
     private javax.swing.JButton btnIngresarCiudad;
     private javax.swing.JButton btnIngresarEnfermedad;
     private javax.swing.JButton btnIngresarEps;
     private javax.swing.JButton btnIngresarEspecialidad;
+    private javax.swing.JButton btnIngresarMedico;
+    private javax.swing.JButton btnIngresarPaciente;
+    private javax.swing.JButton btnLimpiarEnfermedad;
+    private javax.swing.JButton btnLimpiarMedico;
+    private javax.swing.JButton btnLimpiarPaciente;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
@@ -2111,39 +2528,54 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JLabel lblBuscarMedico;
     private javax.swing.JLabel lblBusqueda;
     private javax.swing.JLabel lblCedulaBuscarPaciente;
+    private javax.swing.JLabel lblCedulaBuscarPaciente1;
+    private javax.swing.JLabel lblCedulaBuscarPaciente2;
     private javax.swing.JLabel lblCedulaEditarPaciente;
     private javax.swing.JLabel lblCedulaMedico;
+    private javax.swing.JLabel lblCedulaMedico1;
     private javax.swing.JLabel lblCedulaMedicoBuscar;
     private javax.swing.JLabel lblCedulaPaciente;
+    private javax.swing.JLabel lblCedulaPaciente1;
     private javax.swing.JLabel lblCiudadEditarPaciente;
     private javax.swing.JLabel lblCiudadIngresar;
     private javax.swing.JLabel lblCiudadIngresar1;
     private javax.swing.JLabel lblCiudadMedico;
+    private javax.swing.JLabel lblCiudadMedico1;
     private javax.swing.JLabel lblCiudadPaciente;
+    private javax.swing.JLabel lblCiudadPaciente1;
     private javax.swing.JLabel lblEdadEditarPaciente;
     private javax.swing.JLabel lblEdadPaciente;
+    private javax.swing.JLabel lblEdadPaciente1;
     private javax.swing.JLabel lblEpsEditarPaciente;
     private javax.swing.JLabel lblEpsIngresar;
     private javax.swing.JLabel lblEpsIngresar1;
     private javax.swing.JLabel lblEpsMedico;
+    private javax.swing.JLabel lblEpsMedico1;
     private javax.swing.JLabel lblEpsMedicoAsignar;
     private javax.swing.JLabel lblEpsPaciente;
+    private javax.swing.JLabel lblEpsPaciente1;
     private javax.swing.JLabel lblEs;
     private javax.swing.JLabel lblEs1;
     private javax.swing.JLabel lblEs2;
     private javax.swing.JLabel lblEs3;
     private javax.swing.JLabel lblEs4;
-    private javax.swing.JLabel lblEspecialidad;
     private javax.swing.JLabel lblEspecialidadAsignar;
+    private javax.swing.JLabel lblEspecialidadMedico;
+    private javax.swing.JLabel lblEspecialidadMedico1;
     private javax.swing.JLabel lblIngresar;
     private javax.swing.JLabel lblIngresar1;
     private javax.swing.JLabel lblIngresar2;
     private javax.swing.JLabel lblIngresar3;
+    private javax.swing.JLabel lblIngresar4;
     private javax.swing.JLabel lblIngresarMedico;
+    private javax.swing.JLabel lblIngresarMedico1;
     private javax.swing.JLabel lblNombreEditarPaciente;
     private javax.swing.JLabel lblNombreMedico;
+    private javax.swing.JLabel lblNombreMedico1;
     private javax.swing.JLabel lblNombreMedicoAsignar;
     private javax.swing.JLabel lblNombrePaciente;
+    private javax.swing.JLabel lblNombrePaciente1;
+    private javax.swing.JComboBox<String> listaCiudadEditarMedico;
     private javax.swing.JComboBox<String> listaCiudadEditarPaciente;
     private javax.swing.JComboBox<String> listaCiudadMedico;
     private javax.swing.JComboBox<String> listaCiudadModificar;
@@ -2152,17 +2584,21 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> listaEnfermedadEspecialidadIngresar;
     private javax.swing.JComboBox<String> listaEnfermedadEspecialidadModificar;
     private javax.swing.JComboBox<String> listaEnfermedadModificar;
+    private javax.swing.JComboBox<String> listaEpsEditarMedico;
     private javax.swing.JComboBox<String> listaEpsEditarPaciente;
     private javax.swing.JComboBox<String> listaEpsMedico;
     private javax.swing.JComboBox<String> listaEpsModificar;
     private javax.swing.JComboBox<String> listaEpsPaciente;
-    private javax.swing.JComboBox<String> listaEspecialidad;
+    private javax.swing.JComboBox<String> listaEspecialidadEditarMedico;
+    private javax.swing.JComboBox<String> listaEspecialidadMedico;
     private javax.swing.JComboBox<String> listaEspecialidadModificar;
     private javax.swing.JList<String> listaPacientesConMedico;
     private javax.swing.JList<String> listaPacientesSinMedico;
     private javax.swing.JList<String> listaSalidas;
+    private javax.swing.JTextField txtCedulaBuscahhhrPaciente;
     private javax.swing.JTextField txtCedulaBuscarMedico;
     private javax.swing.JTextField txtCedulaBuscarPaciente;
+    private javax.swing.JTextField txtCedulaEditarMedico;
     private javax.swing.JTextField txtCedulaEditarPaciente;
     private javax.swing.JTextField txtCedulaMedico;
     private javax.swing.JTextField txtCedulaPaciente;
@@ -2177,6 +2613,7 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JTextField txtEpsModificar;
     private javax.swing.JTextField txtEspecialidadIngresar;
     private javax.swing.JTextField txtEspecialidadModificar;
+    private javax.swing.JTextField txtNombreEditarMedico;
     private javax.swing.JTextField txtNombreEditarPaciente;
     private javax.swing.JTextField txtNombreMedico;
     private javax.swing.JTextField txtNombreMedicoAsignar;
