@@ -102,11 +102,11 @@ public class Conector {
             }*/
             try {
                 sentencia.close();
-            } catch (Exception e) {
+            } catch (SQLException e) {
             }
             try {
                 conexion.close();
-            } catch (Exception e) {
+            } catch (SQLException e) {
             }
         }
         return filasAfectadas;
