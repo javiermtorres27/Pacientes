@@ -2468,7 +2468,6 @@ public class Main extends javax.swing.JFrame {
                     //ahora insertar en tabla Pacientes
                     String textoQuery = "insert into Pacientes (Nombre, Cedula, Edad, Id_Ciudad, Id_EPS) VALUES ('%1$s', '%2$s', %3$d, %4$d, %5$d);";
                     String query = String.format(textoQuery, nombre, cedula, edad, idCiudad, idEps);
-                    System.out.println(query);
                     Integer filasAfectadas = conector.ejecutarActualizacion(conexionBD, query);
                     if (filasAfectadas > 0) {
                         JOptionPane.showMessageDialog(this, String.format("Paciente creado exitosamente."));

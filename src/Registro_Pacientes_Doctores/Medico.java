@@ -4,33 +4,31 @@
  */
 package Registro_Pacientes_Doctores;
 
-public class Medico extends Persona{
-    
-    private String especialidad;
+public class Medico extends Persona {
 
-    public Medico(String nombre, String cedula, String ciudad, String eps, String especialidad) {
-        super(nombre, cedula, ciudad, eps);
-        this.especialidad = especialidad;
+    private String idEspecialidad;
+
+    public Medico(String nombre, String cedula, String idCiudad, String idEps, String idEspecialidad) {
+        super(nombre, cedula, idCiudad, idEps);
+        this.idEspecialidad = idEspecialidad;
     }
 
-    public String getEspecialidad() {
-        return especialidad;
+    public String getIdEspecialidad() {
+        return idEspecialidad;
     }
 
-    public void setEspecialidad(String especialidad) {
-        this.especialidad = especialidad;
+    public void setIdEspecialidad(String idEspecialidad) {
+        this.idEspecialidad = idEspecialidad;
     }
-    
-    
-    
+
     @Override
-    public String mostrar(){
-        return super.toString()+" "+super.getEps()+" "+especialidad;
-            
+    public String mostrar() {
+        return super.toString() + " " + idEspecialidad;
+
     }
-    
-    public String paciente(){
+
+    public String paciente() {
         return this.getCedula();
     }
-    
+
 }

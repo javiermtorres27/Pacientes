@@ -4,8 +4,8 @@
  */
 package Registro_Pacientes_Doctores;
 
-public class Paciente extends Persona{
-    
+public class Paciente extends Persona {
+
     private Integer edad;
 
     public Paciente(String nombre, String cedula, String ciudad, String eps, Integer edad) {
@@ -20,20 +20,14 @@ public class Paciente extends Persona{
     public void setEdad(Integer edad) {
         this.edad = edad;
     }
-    
-    public boolean clasificarEdad(int edad){
-        if(super.getNombre().equals("javier")){
-            
-        }
-        
-        return (edad>30 && edad<=60);
+
+    public boolean clasificarEdad(int edad) {
+        return this.getEdad() > 30 && this.getEdad() <= 60;
     }
-    
-    /*
+
     @Override
-    public String mostrar(){
-       return super.toString()+" "+edad+" "+ciudad+" "+super.getEps()+" "+enfermedad;
+    public String mostrar() {
+        return super.toString() + " " + edad;
     }
-*/
-    
+
 }

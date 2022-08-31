@@ -5,19 +5,18 @@
 package Registro_Pacientes_Doctores;
 
 public class Persona {
-    
+
     private Integer id;
     private String nombre;
     private String cedula;
-    private String ciudad;
-    private String eps;
-    
+    private String idCiudad;
+    private String idEps;
 
-    public Persona(String nombre, String cedula, String ciudad, String eps) {
+    public Persona(String nombre, String cedula, String idCiudad, String idEps) {
         this.nombre = nombre;
         this.cedula = cedula;
-        this.ciudad = ciudad;
-        this.eps = eps;
+        this.idCiudad = idCiudad;
+        this.idEps = idEps;
     }
 
     public Integer getId() {
@@ -44,29 +43,29 @@ public class Persona {
         this.cedula = cedula;
     }
 
-    public String getCiudad() {
-        return ciudad;
+    public String getIdCiudad() {
+        return idCiudad;
     }
 
-    public void setCiudad(String ciudad) {
-        this.ciudad = ciudad;
+    public void setIdCiudad(String idCiudad) {
+        this.idCiudad = idCiudad;
     }
 
-    public String getEps() {
-        return eps;
+    public String getIdEps() {
+        return idEps;
     }
 
-    public void setEps(String eps) {
-        this.eps = eps;
+    public void setIdEps(String idEps) {
+        this.idEps = idEps;
     }
-    
+
     @Override
-    public String toString(){
-        return nombre+" "+cedula;
+    public String toString() {
+        return nombre + " " + cedula + " " + idCiudad + " " + idEps;
     }
-    
-    public String mostrar(){
+
+    public String mostrar() {
         return this.toString();
     }
-    
+
 }
